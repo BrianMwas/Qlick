@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3050857286C348A00B276E0 /* qlickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050856286C348A00B276E0 /* qlickApp.swift */; };
+		A3050859286C348A00B276E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050858286C348A00B276E0 /* ContentView.swift */; };
+		A305085B286C348C00B276E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A305085A286C348C00B276E0 /* Assets.xcassets */; };
+		A305085E286C348C00B276E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A305085D286C348C00B276E0 /* Preview Assets.xcassets */; };
+		A3050868286C348C00B276E0 /* qlickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050867286C348C00B276E0 /* qlickTests.swift */; };
+		A3050872286C348C00B276E0 /* qlickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050871286C348C00B276E0 /* qlickUITests.swift */; };
+		A3050874286C348C00B276E0 /* qlickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3050873286C348C00B276E0 /* qlickUITestsLaunchTests.swift */; };
+		A32BF2692878187000BC3AB8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BF2682878187000BC3AB8 /* TabBar.swift */; };
+		A32BF26B2878213F00BC3AB8 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BF26A2878213F00BC3AB8 /* Tab.swift */; };
+		A32BF26D28783B2C00BC3AB8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BF26C28783B2B00BC3AB8 /* HomeView.swift */; };
+		A32BF27428783E8C00BC3AB8 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BF27328783E8C00BC3AB8 /* FeaturedItem.swift */; };
+		A3653C9228784C6A00011129 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3653C9128784C6A00011129 /* AnimatableFontModifier.swift */; };
+		A3653C942878501100011129 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3653C932878501100011129 /* Course.swift */; };
+		A3653C962878596800011129 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3653C952878596800011129 /* MatchedView.swift */; };
+		A3653C98287871F100011129 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3653C97287871F100011129 /* CourseItem.swift */; };
+		A3653C9A287872D000011129 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3653C99287872D000011129 /* CourseView.swift */; };
+		A3653C9C287878DC00011129 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3653C9B287878DC00011129 /* Animations.swift */; };
+		A38E0385286D88BC00532F7A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E0384286D88BC00532F7A /* Styles.swift */; };
+		A38E0387286D913D00532F7A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E0386286D913D00532F7A /* AccountView.swift */; };
+		A39D621F286EE7D90065CB36 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39D621E286EE7D90065CB36 /* HexagonView.swift */; };
+		A39D6221286EEBDC0065CB36 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39D6220286EEBDC0065CB36 /* BlobView.swift */; };
+		A3CC20FA287EA2FD0003962F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CC20F9287EA2FC0003962F /* Model.swift */; };
+		A3DED1FD2878410C007301DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DED1FC2878410C007301DC /* NavigationBar.swift */; };
+		A3DED201287845FC007301DC /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DED200287845FC007301DC /* PreferenceKeys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3050864286C348C00B276E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A305084B286C348A00B276E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3050852286C348A00B276E0;
+			remoteInfo = qlick;
+		};
+		A305086E286C348C00B276E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A305084B286C348A00B276E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3050852286C348A00B276E0;
+			remoteInfo = qlick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3050853286C348A00B276E0 /* Qlick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3050856286C348A00B276E0 /* qlickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qlickApp.swift; sourceTree = "<group>"; };
+		A3050858286C348A00B276E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A305085A286C348C00B276E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A305085D286C348C00B276E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3050863286C348C00B276E0 /* qlickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qlickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3050867286C348C00B276E0 /* qlickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qlickTests.swift; sourceTree = "<group>"; };
+		A305086D286C348C00B276E0 /* qlickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qlickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3050871286C348C00B276E0 /* qlickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qlickUITests.swift; sourceTree = "<group>"; };
+		A3050873286C348C00B276E0 /* qlickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qlickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A32BF2682878187000BC3AB8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A32BF26A2878213F00BC3AB8 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A32BF26C28783B2B00BC3AB8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A32BF27328783E8C00BC3AB8 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		A3653C9128784C6A00011129 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		A3653C932878501100011129 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A3653C952878596800011129 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
+		A3653C97287871F100011129 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		A3653C99287872D000011129 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		A3653C9B287878DC00011129 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		A38E0384286D88BC00532F7A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		A38E0386286D913D00532F7A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		A39D621E286EE7D90065CB36 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		A39D6220286EEBDC0065CB36 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		A3CC20F9287EA2FC0003962F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A3DED1FC2878410C007301DC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		A3DED200287845FC007301DC /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3050850286C348A00B276E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3050860286C348C00B276E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A305086A286C348C00B276E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A305084A286C348A00B276E0 = {
+			isa = PBXGroup;
+			children = (
+				A3050855286C348A00B276E0 /* qlick */,
+				A3050866286C348C00B276E0 /* qlickTests */,
+				A3050870286C348C00B276E0 /* qlickUITests */,
+				A3050854286C348A00B276E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3050854286C348A00B276E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3050853286C348A00B276E0 /* Qlick.app */,
+				A3050863286C348C00B276E0 /* qlickTests.xctest */,
+				A305086D286C348C00B276E0 /* qlickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3050855286C348A00B276E0 /* qlick */ = {
+			isa = PBXGroup;
+			children = (
+				A3050856286C348A00B276E0 /* qlickApp.swift */,
+				A32BF26F28783D6000BC3AB8 /* Views */,
+				A32BF27028783D6E00BC3AB8 /* Components */,
+				A32BF26E28783D4000BC3AB8 /* Navigation */,
+				A32BF27128783D7E00BC3AB8 /* Model */,
+				A32BF27228783D9D00BC3AB8 /* Styles */,
+				A305085A286C348C00B276E0 /* Assets.xcassets */,
+				A305085C286C348C00B276E0 /* Preview Content */,
+			);
+			path = qlick;
+			sourceTree = "<group>";
+		};
+		A305085C286C348C00B276E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A305085D286C348C00B276E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3050866286C348C00B276E0 /* qlickTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3050867286C348C00B276E0 /* qlickTests.swift */,
+			);
+			path = qlickTests;
+			sourceTree = "<group>";
+		};
+		A3050870286C348C00B276E0 /* qlickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3050871286C348C00B276E0 /* qlickUITests.swift */,
+				A3050873286C348C00B276E0 /* qlickUITestsLaunchTests.swift */,
+			);
+			path = qlickUITests;
+			sourceTree = "<group>";
+		};
+		A32BF26E28783D4000BC3AB8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A3050858286C348A00B276E0 /* ContentView.swift */,
+				A32BF2682878187000BC3AB8 /* TabBar.swift */,
+				A3DED1FC2878410C007301DC /* NavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A32BF26F28783D6000BC3AB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A32BF26C28783B2B00BC3AB8 /* HomeView.swift */,
+				A38E0386286D913D00532F7A /* AccountView.swift */,
+				A3653C952878596800011129 /* MatchedView.swift */,
+				A3653C99287872D000011129 /* CourseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A32BF27028783D6E00BC3AB8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A39D621E286EE7D90065CB36 /* HexagonView.swift */,
+				A39D6220286EEBDC0065CB36 /* BlobView.swift */,
+				A32BF27328783E8C00BC3AB8 /* FeaturedItem.swift */,
+				A3653C97287871F100011129 /* CourseItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A32BF27128783D7E00BC3AB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A32BF26A2878213F00BC3AB8 /* Tab.swift */,
+				A3DED200287845FC007301DC /* PreferenceKeys.swift */,
+				A3653C932878501100011129 /* Course.swift */,
+				A3CC20F9287EA2FC0003962F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A32BF27228783D9D00BC3AB8 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				A38E0384286D88BC00532F7A /* Styles.swift */,
+				A3653C9128784C6A00011129 /* AnimatableFontModifier.swift */,
+				A3653C9B287878DC00011129 /* Animations.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3050852286C348A00B276E0 /* qlick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3050877286C348C00B276E0 /* Build configuration list for PBXNativeTarget "qlick" */;
+			buildPhases = (
+				A305084F286C348A00B276E0 /* Sources */,
+				A3050850286C348A00B276E0 /* Frameworks */,
+				A3050851286C348A00B276E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qlick;
+			productName = qlick;
+			productReference = A3050853286C348A00B276E0 /* Qlick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3050862286C348C00B276E0 /* qlickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A305087A286C348C00B276E0 /* Build configuration list for PBXNativeTarget "qlickTests" */;
+			buildPhases = (
+				A305085F286C348C00B276E0 /* Sources */,
+				A3050860286C348C00B276E0 /* Frameworks */,
+				A3050861286C348C00B276E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3050865286C348C00B276E0 /* PBXTargetDependency */,
+			);
+			name = qlickTests;
+			productName = qlickTests;
+			productReference = A3050863286C348C00B276E0 /* qlickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A305086C286C348C00B276E0 /* qlickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A305087D286C348C00B276E0 /* Build configuration list for PBXNativeTarget "qlickUITests" */;
+			buildPhases = (
+				A3050869286C348C00B276E0 /* Sources */,
+				A305086A286C348C00B276E0 /* Frameworks */,
+				A305086B286C348C00B276E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A305086F286C348C00B276E0 /* PBXTargetDependency */,
+			);
+			name = qlickUITests;
+			productName = qlickUITests;
+			productReference = A305086D286C348C00B276E0 /* qlickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A305084B286C348A00B276E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A3050852286C348A00B276E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A3050862286C348C00B276E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A3050852286C348A00B276E0;
+					};
+					A305086C286C348C00B276E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A3050852286C348A00B276E0;
+					};
+				};
+			};
+			buildConfigurationList = A305084E286C348A00B276E0 /* Build configuration list for PBXProject "qlick" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A305084A286C348A00B276E0;
+			productRefGroup = A3050854286C348A00B276E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3050852286C348A00B276E0 /* qlick */,
+				A3050862286C348C00B276E0 /* qlickTests */,
+				A305086C286C348C00B276E0 /* qlickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3050851286C348A00B276E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A305085E286C348C00B276E0 /* Preview Assets.xcassets in Resources */,
+				A305085B286C348C00B276E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3050861286C348C00B276E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A305086B286C348C00B276E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A305084F286C348A00B276E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32BF26D28783B2C00BC3AB8 /* HomeView.swift in Sources */,
+				A38E0387286D913D00532F7A /* AccountView.swift in Sources */,
+				A3653C9A287872D000011129 /* CourseView.swift in Sources */,
+				A39D621F286EE7D90065CB36 /* HexagonView.swift in Sources */,
+				A38E0385286D88BC00532F7A /* Styles.swift in Sources */,
+				A3653C962878596800011129 /* MatchedView.swift in Sources */,
+				A32BF26B2878213F00BC3AB8 /* Tab.swift in Sources */,
+				A3DED1FD2878410C007301DC /* NavigationBar.swift in Sources */,
+				A3653C9228784C6A00011129 /* AnimatableFontModifier.swift in Sources */,
+				A39D6221286EEBDC0065CB36 /* BlobView.swift in Sources */,
+				A3653C942878501100011129 /* Course.swift in Sources */,
+				A3050859286C348A00B276E0 /* ContentView.swift in Sources */,
+				A3653C98287871F100011129 /* CourseItem.swift in Sources */,
+				A3050857286C348A00B276E0 /* qlickApp.swift in Sources */,
+				A3653C9C287878DC00011129 /* Animations.swift in Sources */,
+				A32BF27428783E8C00BC3AB8 /* FeaturedItem.swift in Sources */,
+				A3CC20FA287EA2FD0003962F /* Model.swift in Sources */,
+				A3DED201287845FC007301DC /* PreferenceKeys.swift in Sources */,
+				A32BF2692878187000BC3AB8 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A305085F286C348C00B276E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3050868286C348C00B276E0 /* qlickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3050869286C348C00B276E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3050872286C348C00B276E0 /* qlickUITests.swift in Sources */,
+				A3050874286C348C00B276E0 /* qlickUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3050865286C348C00B276E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3050852286C348A00B276E0 /* qlick */;
+			targetProxy = A3050864286C348C00B276E0 /* PBXContainerItemProxy */;
+		};
+		A305086F286C348C00B276E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3050852286C348A00B276E0 /* qlick */;
+			targetProxy = A305086E286C348C00B276E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3050875286C348C00B276E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3050876286C348C00B276E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3050878286C348C00B276E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"qlick/Preview Content\"";
+				DEVELOPMENT_TEAM = BDF5Y3V898;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbrian.qlick;
+				PRODUCT_NAME = Qlick;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3050879286C348C00B276E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"qlick/Preview Content\"";
+				DEVELOPMENT_TEAM = BDF5Y3V898;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbrian.qlick;
+				PRODUCT_NAME = Qlick;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A305087B286C348C00B276E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDF5Y3V898;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbrian.qlickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qlick.app/qlick";
+			};
+			name = Debug;
+		};
+		A305087C286C348C00B276E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDF5Y3V898;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbrian.qlickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qlick.app/qlick";
+			};
+			name = Release;
+		};
+		A305087E286C348C00B276E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDF5Y3V898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbrian.qlickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qlick;
+			};
+			name = Debug;
+		};
+		A305087F286C348C00B276E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDF5Y3V898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbrian.qlickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qlick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A305084E286C348A00B276E0 /* Build configuration list for PBXProject "qlick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3050875286C348C00B276E0 /* Debug */,
+				A3050876286C348C00B276E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3050877286C348C00B276E0 /* Build configuration list for PBXNativeTarget "qlick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3050878286C348C00B276E0 /* Debug */,
+				A3050879286C348C00B276E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A305087A286C348C00B276E0 /* Build configuration list for PBXNativeTarget "qlickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A305087B286C348C00B276E0 /* Debug */,
+				A305087C286C348C00B276E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A305087D286C348C00B276E0 /* Build configuration list for PBXNativeTarget "qlickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A305087E286C348C00B276E0 /* Debug */,
+				A305087F286C348C00B276E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A305084B286C348A00B276E0 /* Project object */;
+}
