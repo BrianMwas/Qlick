@@ -8,8 +8,8 @@ I built the app using the latest xCode version it does not have any dependencies
 ## Screenshots.
 You can view how the app looks like.
 <p align="center">
-  <img src="screenshot/first.png" width="200"/>
-   <img src="screenshot/second.png" width="200"/>
-    <img src="screenshot/third.png" width="200"/>
-     <img src="screenshot/fourth.png" width="200"/>
+  <img src="screenshots/first.png" width="200"/>
+   <img src="screenshots/second.png" width="200"/>
+    <img src="screenshots/third.png" width="200"/>
+     <img src="screenshots/fourth.png" width="200"/>
 </p>
